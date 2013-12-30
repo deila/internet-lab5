@@ -1,0 +1,12 @@
+<h1 id="books">Books</h1>
+
+<a href="/app/books/new/">Create new</a>
+
+<ul>
+{%for book in books%}
+
+<li><a href="{{book.absolute_url}}">{{book.title}}</a></li>
+
+{%endfor%}
+</ul>
+

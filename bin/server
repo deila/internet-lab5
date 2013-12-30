@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DJANGO_SETTINGS_MODULE=app.settings gunicorn app.wsgi
+
